@@ -1,0 +1,35 @@
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     background-color: hsl(212, 45%, 89%);
+     height: 100vh;     
+}
+main {
+     background-color: hsl(0, 0%, 100%);
+     width: 300px;
+     height: 450px;
+     box-sizing: border-box;
+     padding: 20px;
+     border-radius: 10px;
+}
+main > img  {
+     border-radius: 10px;
+}
+.me {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-left: 10px;
+}

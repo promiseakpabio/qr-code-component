@@ -1,0 +1,59 @@
+  .attribution {
+    font-size: 11px; 
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    position: fixed;
+    bottom: 20px;
+    left: 550px;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url("./fonts/Outfit-VariableFont_wght.ttf");
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Outfit;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+    border-radius: 12px;
+    height: 320px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+h4 {
+    color: hsl(218, 44%, 22%);
+    margin: 0px;
+    margin-top: 8px;
+}
+
+p{
+    font-size: 11px;
+    color:  hsl(216, 15%, 48%);
+    margin: 0px;
+    margin-top: 8px;
+}
+
+.text {
+    padding: 4px;
+}
+
+  
